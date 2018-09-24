@@ -1,6 +1,6 @@
 # Run Book / System Operation Manual
 
-See [`README.md`](README.md) for details of how to use this **Run Book / System Operation Manual** template.
+See [`README.md`](README.md) for details of how to use this **Vault Run Book / System Operation Manual** template.
 
 Copyright © 2014-2016 [Skelton Thatcher Consulting](https://skeltonthatcher.com/)
 
