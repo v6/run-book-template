@@ -7,33 +7,36 @@ Copyright © 2014-2016 [Skelton Thatcher Consulting](https://skeltonthatcher.com
 Licenced under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) ![CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/3.0/88x31.png)
 
 
-## Service or system overview
+## Vault overview
 
-**Service or system name:** 
+**HashiCorp Vault:** 
 
 ### Business overview
 
 > What business need is met by this service or system? What expectations do we have about availability and performance?
 
-_(e.g. Provides reliable automated reconciliation of logistics transactions from the previous 24 hours)_
+Provides Secrets Management as an internally available SaaS offering. 
 
 ### Technical overview
 
 > What kind of system is this? Web-connected order processing? Back-end batch system? Internal HTTP-based API? ETL control system?
 
-_(e.g. Internal API for order reconciliation based on Ruby and RabbitMQ, deployed in Docker containers on Kubernetes)_
+Internal HTTP API for secrets management based on ReST, deployed in Virtual Machines or dedicated hardware as a cluster for high availability. 
+
+Uses HashiCorp Consul as a backend. 
 
 ### Service Level Agreements (SLAs)
 
 > What explicit or implicit expectations are there from users or clients about the availability of the service or system?
 
-_(e.g. Contractual 99.9% service availability outside of the 03:00-05:00 maintenance window)_
+Maximum unplanned down-time in one week should be a 24 hours for an entire cluster going down, and 1 hour for a server going down. 
 
 ### Service owner
 
 > Which team owns and runs this service or system?
 
-_(e.g. The *Sneaky Sharks* team (Bangalore) develops and runs this service: sneaky.sharks@company.com / *#sneaky-sharks* on Slack / Extension 9265)_
+
+_(e.g. The *Sneaky Sharks* InfoSec team (Bangalore) runs and develops integrations to HashiCorp Vault: sneaky.sharks@digitalonus.com / *#sneaky-sharks* on Slack / Extension 9265)_
 
 ### Contributing applications, daemons, services, middleware
 
